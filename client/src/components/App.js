@@ -19,7 +19,7 @@ function App() {
       <div style={{ position: 'relative' }}>
         <Weather />
       </div>
-      <div style={{ minHeight: '90vh' }}>
+      <div style={{ minHeight: '75vh' }}>
         <Router basename={process.env.PUBLIC_URL}>
           <Routes>
             <Route path="/" element={<Main />} />

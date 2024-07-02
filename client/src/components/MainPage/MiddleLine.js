@@ -11,7 +11,7 @@ const contentStyle = {
 };
 const MiddleLine = () => {
   return (
-    <div style={{ position: 'relative', height: '200px' }}>
+    <div style={{ margin: '0 auto', height: '200px' }}>
       <div style={{ margin: '0 auto', width: '725px' }}>
         <a href='#'>
           <Carousel

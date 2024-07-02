@@ -28,7 +28,7 @@ const Navbar = () => {
           alt='로고 이미지' />
       </a>
       <div style={{ position: 'relative', margin: '0 auto', lineHeight: '100px', textAlign: 'center', width: '1200px' }}>
-        <Link to='/notice'><Button  type='primary' style={navBtnStyle}>공지사항</Button></Link>
+        <Button href='/parentingDictionary/notice' type='primary' style={navBtnStyle}>공지사항</Button>
         <Link to='#'><Button type='primary' style={navBtnStyle}>육아지식</Button></Link>
         <Button href='/' type='primary' style={navBtnStyle}>육아장터</Button>
         <Button href='/' type='primary' style={navBtnStyle}>마이페이지</Button>

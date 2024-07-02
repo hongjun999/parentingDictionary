@@ -4,7 +4,7 @@ import ad2 from '../../img/main_ad2.png';
 const AdLeft = () => {
   return (
     <div>
-      <a href='/'>
+      <a href='#'>
         <img style={{
           position: 'absolute',
           top: '30px',

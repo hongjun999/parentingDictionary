@@ -50,11 +50,11 @@ const LogInBox = () => {
         </div>
         <div style={{ fontSize: '10px' }}>
           <a style={{ textDecoration: 'none' }}
-            href='/'>아이디 찾기</a>  &nbsp;&#124;&nbsp;
+            href='#'>아이디 찾기</a>  &nbsp;&#124;&nbsp;
           <a style={{ textDecoration: 'none' }}
-            href='/'>비밀번호 찾기</a> &nbsp;&#124;&nbsp;
+            href='#'>비밀번호 찾기</a> &nbsp;&#124;&nbsp;
           <a style={{ textDecoration: 'none' }}
-            href='/'>회원가입</a>
+            href='#'>회원가입</a>
         </div>
       </div>
     </div>

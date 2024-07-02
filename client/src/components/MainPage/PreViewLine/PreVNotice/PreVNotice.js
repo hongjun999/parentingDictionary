@@ -1,5 +1,6 @@
 import { List, Typography } from 'antd';
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const data = [
   '[드림여성한의원] 사춘기 생리통 90일 프...',
@@ -20,7 +21,7 @@ const PreVNotice = () => {
         style={{ backgroundColor: '#fff' }}
         dataSource={data}
         renderItem={(item) => (
-          <a href='/parentingDictionary/notice'>
+          <Link to='/notice'>
             <List.Item style={{ color: 'RGBA(255,0,0,0.6)' }}>
               <Typography.Text
                 style={{
@@ -29,7 +30,7 @@ const PreVNotice = () => {
                 }}
                 type='danger'>공지</Typography.Text> {item}
             </List.Item>
-          </a>
+          </Link>
         )} />
     </div>
   )

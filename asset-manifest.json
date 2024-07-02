@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/parentingDictionary/static/css/main.e5dce635.css",
+    "main.js": "/parentingDictionary/static/js/main.b1417bca.js",
+    "static/js/453.419a5d54.chunk.js": "/parentingDictionary/static/js/453.419a5d54.chunk.js",
+    "static/media/main_ad1.png": "/parentingDictionary/static/media/main_ad1.fb46014b736bad91b5c9.png",
+    "static/media/main_ad2.png": "/parentingDictionary/static/media/main_ad2.159ada4db799735fddbc.png",
+    "static/media/notice_1.png": "/parentingDictionary/static/media/notice_1.b49c5ac4b5ef4c6e59f5.png",
+    "static/media/ad_bar.png": "/parentingDictionary/static/media/ad_bar.905370cadf8c5c1a6289.png",
+    "static/media/육아사전_logo_ver2.1.png": "/parentingDictionary/static/media/육아사전_logo_ver2.1.84b903aa50bd461b1ccd.png",
+    "static/media/main_날씨2.png": "/parentingDictionary/static/media/main_날씨2.295217df72adb676cbe4.png",
+    "index.html": "/parentingDictionary/index.html",
+    "main.e5dce635.css.map": "/parentingDictionary/static/css/main.e5dce635.css.map",
+    "main.b1417bca.js.map": "/parentingDictionary/static/js/main.b1417bca.js.map",
+    "453.419a5d54.chunk.js.map": "/parentingDictionary/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5dce635.css",
+    "static/js/main.b1417bca.js"
+  ]
+}

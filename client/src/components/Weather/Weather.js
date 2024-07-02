@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { API_KEY, API_URL } from '../config'
-import weather from '../../img/main_날씨2.png'
+import weather from '../../img/main_날씨3.png'
 
 const Weather = () => {
 

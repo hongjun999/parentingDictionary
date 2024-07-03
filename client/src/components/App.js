@@ -26,8 +26,6 @@ function App() {
             <Route path="/notice" element={<Notice />} />
           </Routes>
         </div>
-
-
         {/* Footer */}
         <Footer />
       </div>

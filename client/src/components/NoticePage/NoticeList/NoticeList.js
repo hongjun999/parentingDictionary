@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import noticeList from '../../../img/notice_1.png'
+import DataTable from './DataTable';
 
 
 const NoticeList = () => {
@@ -22,9 +22,12 @@ const NoticeList = () => {
         />
         <button onClick={handleSearch}>검색</button>
       </div>
-      <div style={{ margin: '20px' }} >
-        <img  src={noticeList} />
+      <div style={{margin: '0 auto', width: '800px'}}>
+        <DataTable />
       </div>
+      {/* <div style={{ margin: '20px' }} >
+        <img  src={noticeList} />
+      </div> */}
     </>
   );
 }

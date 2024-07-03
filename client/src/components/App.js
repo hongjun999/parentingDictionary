@@ -10,28 +10,28 @@ import Weather from "./Weather/Weather";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <div style={{ position: 'relative' }} >
-        <AdLeft />
-        <LogInBox />
-      </div>
-      <div style={{ position: 'relative' }}>
-        <Weather />
-      </div>
-      <div style={{ minHeight: '75vh' }}>
-        <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={process.env.PUBLIC_URL}>
+      <div className="App">
+        <Navbar />
+        <div style={{ position: 'relative' }} >
+          <AdLeft />
+          <LogInBox />
+        </div>
+        <div style={{ position: 'relative' }}>
+          <Weather />
+        </div>
+        <div style={{ minHeight: '75vh' }}>
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/notice" element={<Notice />} />
           </Routes>
-        </Router>
+        </div>
+
+
+        {/* Footer */}
+        <Footer />
       </div>
-
-
-      {/* Footer */}
-      <Footer />
-    </div>
+    </Router>
   );
 }
 export default App;

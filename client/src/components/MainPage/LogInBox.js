@@ -1,5 +1,7 @@
 import React from 'react'
 import kakao from '../../img/kakao.png'
+import { Link } from 'react-router-dom'
+import { Button } from 'antd';
 
 const LogInBox = () => {
   const boxStyle = {
@@ -43,18 +45,15 @@ const LogInBox = () => {
       <div style={boxStyle}>
         <p style={{ margin: '7px auto', fontSize: '10px', fontWeight: 'bold' }}>간편 로그인</p>
         <div>
-          <button style={naverBox}>NAVER 로그인</button>
-          <button style={kakaoBox}>
+          <Link to='/'><Button style={naverBox}>NAVER 로그인</Button></Link>
+          <Link to='/'><Button style={kakaoBox}>
             <img style={{ verticalAlign: 'bottom', width: '14px' }} src={kakao} alt='카카오 말풍선'
-            />카카오계정으로 로그인</button>
+            />카카오계정으로 로그인</Button></Link>
         </div>
         <div style={{ fontSize: '10px' }}>
-          <a style={{ textDecoration: 'none' }}
-            href='#'>아이디 찾기</a>  &nbsp;&#124;&nbsp;
-          <a style={{ textDecoration: 'none' }}
-            href='#'>비밀번호 찾기</a> &nbsp;&#124;&nbsp;
-          <a style={{ textDecoration: 'none' }}
-            href='#'>회원가입</a>
+        <Link style={{ textDecoration: 'none' }} to='/'>아이디 찾기</Link>  &nbsp;&#124;&nbsp;
+        <Link style={{ textDecoration: 'none' }} to='/'>비밀번호 찾기</Link> &nbsp;&#124;&nbsp;
+        <Link style={{ textDecoration: 'none' }} to='/'>회원가입</Link>
         </div>
       </div>
     </div>

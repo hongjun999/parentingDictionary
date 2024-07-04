@@ -3,10 +3,12 @@ import ad2 from '../../img/main_ad2.png';
 
 const AdLeft = () => {
   return (
-    <div style={{
-      position: 'absolute',
-      top: '30px',
-      left: '10px'}}>
+    <div
+    // style={{
+    //   position: 'absolute',
+    //   top: '30px',
+    //   left: '10px'}}
+    >
       <a href='#'>
         <img style={{
           objectFit: 'cover',

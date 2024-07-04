@@ -19,7 +19,7 @@ const navBtnStyle = {
 const Navbar = () => {
   return (
     <div style={{ width: '100%', padding: '10px 0' }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', maxWidth: '1200px', margin: '0 auto' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', maxWidth: '1400px', margin: '0 auto' }}>
 
         {/* nav바 좌측 로고 */}
         <a href="/parentingDictionary">
@@ -34,23 +34,31 @@ const Navbar = () => {
         </a>
 
         {/* nav바 중앙 메뉴 */}
-        <div style={{ display: 'flex' }}>
-          <Link to='/notice' style={{ marginLeft: '20px', width: '120px', display: 'inline-block' }}>
-            <Button type='primary' style={navBtnStyle}>공지사항</Button>
-          </Link>
-          <Link to='/notice' style={{ marginLeft: '20px', width: '120px', display: 'inline-block' }}>
-            <Button type='primary' style={navBtnStyle}>육아지식</Button>
-          </Link>
-          <Link to='/notice' style={{ marginLeft: '20px', width: '120px', display: 'inline-block' }}>
-            <Button type='primary' style={navBtnStyle}>육아장터</Button>
-          </Link>
-          <Link to='/notice' style={{ marginLeft: '20px', width: '120px', display: 'inline-block' }}>
-            <Button type='primary' style={navBtnStyle}>마이페이지</Button>
-          </Link>
+        <div style={{ display: 'flex', margin: '0 auto' }}>
+          <div style={{ margin: '0 20px' }}>
+            <Link to='/notice' style={{ marginLeft: '20px', width: '120px', display: 'inline-block' }}>
+              <Button type='primary' style={navBtnStyle}>공지사항</Button>
+            </Link>
+          </div>
+          <div style={{ margin: '0 20px' }}>
+            <Link to='/notice' style={{ marginLeft: '20px', width: '120px', display: 'inline-block' }}>
+              <Button type='primary' style={navBtnStyle}>육아지식</Button>
+            </Link>
+          </div>
+          <div style={{ margin: '0 20px' }}>
+            <Link to='/notice' style={{ marginLeft: '20px', width: '120px', display: 'inline-block' }}>
+              <Button type='primary' style={navBtnStyle}>육아장터</Button>
+            </Link>
+          </div>
+          <div style={{ margin: '0 20px' }}>
+            <Link to='/notice' style={{ marginLeft: '20px', width: '120px', display: 'inline-block' }}>
+              <Button type='primary' style={navBtnStyle}>마이페이지</Button>
+            </Link>
+          </div>
         </div>
 
         {/* nav바 우측 광고 */}
-        <div>
+        <div >
           <a href='/'>
             <img
               style={{

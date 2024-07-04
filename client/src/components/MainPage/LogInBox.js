@@ -37,8 +37,8 @@ const LogInBox = () => {
   }
   return (
     <div style={{
-      position: 'absolute',
-      top: '30px', right: '1%',
+      // position: 'absolute',
+      // top: '30px', right: '1%',
       textAlign: 'center',
       zIndex: 100
     }}>

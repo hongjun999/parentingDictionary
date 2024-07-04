@@ -1,43 +1,14 @@
-import { Carousel } from 'antd';
 import React from 'react';
-import adbar1 from '../../img/ad_bar.png';
-import adbar2 from '../../img/ad_bar2.png';
-import adbar3 from '../../img/ad_bar3.png';
-import adbar4 from '../../img/ad_bar4.png';
-import { Link } from 'react-router-dom';
+import AdBar from './AdBar/AdBar';
 
-const contentStyle = {
-  margin: '30px auto 8px auto',
-  width: '724px',
-  height: '110px',
-  backgroundColor: 'RGBA(103,205,238,0.5)',
 
-};
 const MiddleLine = () => {
   return (
     <div style={{ margin: '0 auto', height: '200px' }}>
-      <div style={{ margin: '0 auto', width: '725px' }}>
-          <Carousel
-            pauseOnHover={true}
-            autoplay
-            autoplaySpeed={5000}
-          >
-            <div>
-              <Link to='/'><div style={contentStyle}><img src={adbar1} alt='광고 이미지' /></div></Link>
-            </div>
-            <div>
-              <Link to='/'><div style={contentStyle}><img src={adbar2} alt='광고 이미지' /></div></Link>
-            </div>
-            <div>
-              <Link to='/'><div style={contentStyle}><img src={adbar3} alt='광고 이미지' /></div></Link>
-            </div>
-            <div>
-              <Link to='/'><div style={contentStyle}><img src={adbar4} alt='광고 이미지' /></div></Link>
-            </div>
-          </Carousel>
-      </div>
+      <AdBar />
     </div>
   )
+
 }
 
 export default MiddleLine;

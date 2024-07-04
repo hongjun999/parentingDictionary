@@ -20,11 +20,15 @@ code {
 }
 
 .ant-space-item>a {
+
   color: red;
+  
 }
 
 th.ant-table-cell {
   text-align: center !important;
+  /* display: inline-block !important; */
+  /* text-overflow: ellipsis !important; */
 }
 
 div.ant-table-content{

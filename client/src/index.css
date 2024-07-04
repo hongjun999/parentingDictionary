@@ -6,9 +6,30 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(235, 247, 255);
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-next .ant-pagination-item-link {
+  cursor: default !important;
+}
+
+.ant-space-item>a {
+  color: red;
+}
+
+th.ant-table-cell {
+  text-align: center !important;
+}
+
+div.ant-table-content{
+  width: 800px !important;
+}
+.custom-column {
+  color: red !important;
 }

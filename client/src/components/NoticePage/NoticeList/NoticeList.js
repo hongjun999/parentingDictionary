@@ -14,7 +14,7 @@ const NoticeList = () => {
 
   return (
     <>
-      <div style={{ textAlign: 'right', margin: '20px 0' }}>
+      <div style={{ textAlign: 'right', margin: '-25px 100px 50px 0' }}>
         <input
           type="text"
           value={searchTerm}

@@ -41,17 +41,17 @@ const Navbar = () => {
             </Link>
           </div>
           <div style={{ margin: '0 20px' }}>
-            <Link to='/' style={{ margin: '0 30px', width: '120px', display: 'inline-block' }}>
+            <Link to='#' style={{ margin: '0 30px', width: '120px', display: 'inline-block' }}>
               <Button type='primary' style={navBtnStyle}>육아지식</Button>
             </Link>
           </div>
           <div style={{ margin: '0 20px' }}>
-            <Link to='/' style={{ margin: '0 30px', width: '120px', display: 'inline-block' }}>
+            <Link to='#' style={{ margin: '0 30px', width: '120px', display: 'inline-block' }}>
               <Button type='primary' style={navBtnStyle}>육아장터</Button>
             </Link>
           </div>
           <div style={{ margin: '0 20px' }}>
-            <Link to='/' style={{ margin: '0 30px', width: '120px', display: 'inline-block' }}>
+            <Link to='#' style={{ margin: '0 30px', width: '120px', display: 'inline-block' }}>
               <Button type='primary' style={navBtnStyle}>마이페이지</Button>
             </Link>
           </div>
@@ -59,7 +59,7 @@ const Navbar = () => {
 
         {/* nav바 우측 광고 */}
         <div >
-          <a href="/parentingDictionary">
+          <Link to='#'>
             <img
               style={{
                 objectFit: 'cover',
@@ -69,7 +69,7 @@ const Navbar = () => {
               src={ad1}
               alt='광고 이미지'
             />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

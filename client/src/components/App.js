@@ -1,5 +1,5 @@
 import Main from "./MainPage/Main";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
 import Notice from "./NoticePage/Notice";
@@ -8,7 +8,7 @@ import Notice from "./NoticePage/Notice";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router >
       <div className="App">
         <Navbar />
         <div style={{ position: 'relative' }} >

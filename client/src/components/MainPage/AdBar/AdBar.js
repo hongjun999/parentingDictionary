@@ -22,16 +22,16 @@ const AdBar = () => {
         autoplaySpeed={5000}
       >
         <div>
-          <Link to='/'><div style={contentStyle}><img src={adbar1} alt='광고 이미지' /></div></Link>
+          <Link to='#'><div style={contentStyle}><img src={adbar1} alt='광고 이미지' /></div></Link>
         </div>
         <div>
-          <Link to='/'><div style={contentStyle}><img src={adbar2} alt='광고 이미지' /></div></Link>
+          <Link to='#'><div style={contentStyle}><img src={adbar2} alt='광고 이미지' /></div></Link>
         </div>
         <div>
-          <Link to='/'><div style={contentStyle}><img src={adbar3} alt='광고 이미지' /></div></Link>
+          <Link to='#'><div style={contentStyle}><img src={adbar3} alt='광고 이미지' /></div></Link>
         </div>
         <div>
-          <Link to='/'><div style={contentStyle}><img src={adbar4} alt='광고 이미지' /></div></Link>
+          <Link to='#'><div style={contentStyle}><img src={adbar4} alt='광고 이미지' /></div></Link>
         </div>
       </Carousel>
     </div>

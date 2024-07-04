@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/parentingDictionary/static/css/main.e5dce635.css",
-    "main.js": "/parentingDictionary/static/js/main.f3423108.js",
+    "main.js": "/parentingDictionary/static/js/main.4df37056.js",
     "static/js/453.419a5d54.chunk.js": "/parentingDictionary/static/js/453.419a5d54.chunk.js",
     "static/media/main_ad1.png": "/parentingDictionary/static/media/main_ad1.fb46014b736bad91b5c9.png",
     "static/media/main_ad2.png": "/parentingDictionary/static/media/main_ad2.159ada4db799735fddbc.png",
@@ -13,11 +13,11 @@
     "static/media/main_날씨3.png": "/parentingDictionary/static/media/main_날씨3.fc58f9618f79547df761.png",
     "index.html": "/parentingDictionary/index.html",
     "main.e5dce635.css.map": "/parentingDictionary/static/css/main.e5dce635.css.map",
-    "main.f3423108.js.map": "/parentingDictionary/static/js/main.f3423108.js.map",
+    "main.4df37056.js.map": "/parentingDictionary/static/js/main.4df37056.js.map",
     "453.419a5d54.chunk.js.map": "/parentingDictionary/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5dce635.css",
-    "static/js/main.f3423108.js"
+    "static/js/main.4df37056.js"
   ]
 }

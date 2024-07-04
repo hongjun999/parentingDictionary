@@ -15,7 +15,7 @@ const contentStyle = {
 
 const AdBar = () => {
   return (
-    <div style={{ margin: '0 auto', width: '725px' }}>
+    <div style={{ margin: '0 auto', width: '725px', height: '200px' }}>
       <Carousel
         pauseOnHover={true}
         autoplay

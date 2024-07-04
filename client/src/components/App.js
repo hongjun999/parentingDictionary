@@ -4,8 +4,6 @@ import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
 import Notice from "./NoticePage/Notice";
 // import AdLeft from "./MainPage/AdLeft";
-import LogInBox from "./MainPage/LogInBox";
-import Weather from "./Weather/Weather";
 
 
 function App() {

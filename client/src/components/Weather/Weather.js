@@ -14,7 +14,7 @@ const Weather = () => {
 
   }, [])
   return (
-    <div style={{marginTop: '20px'}}>
+    <div style={{marginTop: '20px', marginLeft: '-15px'}}>
       <img style={{ width: '280px', height: '170px' }} src={weather} />
     </div>
   )

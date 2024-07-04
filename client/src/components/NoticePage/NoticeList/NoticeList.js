@@ -14,7 +14,7 @@ const NoticeList = () => {
 
   return (
     <>
-      <div style={{ margin: '20px' }}>
+      <div style={{ textAlign:'right' , margin: '20px' }}>
         <input
           type="text"
           value={searchTerm}
@@ -22,7 +22,7 @@ const NoticeList = () => {
         />
         <button onClick={handleSearch}>검색</button>
       </div>
-      <div style={{margin: '0 auto', width: '800px'}}>
+      <div style={{ margin: '0 auto', width: '800px' }}>
         <DataTable />
       </div>
       {/* <div style={{ margin: '20px' }} >

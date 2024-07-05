@@ -14,7 +14,7 @@
 
 #### 개발 인원 : 1명
 
-#### 프로젝트 기간 : 2024.05 ~ 2024.07.
+#### 개발 기간 : 2024.06.29 ~ 2023.07.05
 
 <br />
 
@@ -42,9 +42,9 @@
 
 ## 개발환경
 
-|OS| Front-end|
-|---------|-------------|
-|Window10, window11| HTML, CSS, JavaScript|
+|OS| Front-end| IDE
+|---------|-------------|----------|
+|Window10, window11| HTML / CSS / JavaScript react(18.3.1) / Node.js 0.1.0 / antd 5.18.3| Visual Studio Code
 
 <br />
 
@@ -61,7 +61,8 @@
 ## 화면 설계
 ![image](https://github.com/hongjun999/parentingDictionary/assets/174400781/fec121d6-5466-4a17-823f-46e75c6507c1)
 
-![image](https://github.com/hongjun999/parentingDictionary/assets/174400781/c9a5620c-7188-496a-a64b-9a7c06a5eb13)
+![image](https://github.com/hongjun999/parentingDictionary/assets/174400781/f8e6b731-49ff-457d-a8f7-363639709dee)
+
 
 
  

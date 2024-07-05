@@ -8,10 +8,13 @@
 #### 육아정보에 관한 홈페이지 보다는 카페 운영이 활성화되어 
 #### 카페를 가입하지 않고서는 접근이 불가능하여 누구나 접근 가능하여 정보를 볼 수 있게 함
 
+<br />
+
 ### 자바스크립트와 리액트를 활용한 홈페이지 개발 및 배포
 
 #### 프로젝트 기간 : 2024.05 ~ 2024.07.
 
+<br />
 
 ## 프로젝트 소개
 #### 
@@ -33,17 +36,25 @@
 - 회원관리 : 회원목록 -> 회원 정보 상세
 - 상품 재고 관리
 
+<br />
+
 ## 개발환경
 
 |OS| Front-end|
 |---------|-------------|
 |Window10, window11| HTML, CSS, JavaScript|
 
+<br />
+
 ## 시스템 구조
 ![image](https://github.com/hongjun999/parentingDictionary/assets/174400781/05e5ab04-4e7f-4d70-ab10-ddffc77125d4)
 
+<br />
+
 ## 사이트맵 구조
 ![image](https://github.com/hongjun999/parentingDictionary/assets/174400781/4d8f84cf-5538-4f73-a8fc-597677ddd90f)
+
+<br />
 
 ## 화면 설계
 ![image](https://github.com/hongjun999/parentingDictionary/assets/174400781/fec121d6-5466-4a17-823f-46e75c6507c1)

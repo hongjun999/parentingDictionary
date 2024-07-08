@@ -25,9 +25,6 @@ const NoticeList = () => {
       <div style={{ color: 'red', margin: '0 auto', width: '800px' }}>
         <DataTable />
       </div>
-      {/* <div style={{ margin: '20px' }} >
-        <img  src={noticeList} />
-      </div> */}
     </>
   );
 }

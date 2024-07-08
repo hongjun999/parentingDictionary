@@ -3,7 +3,6 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
 import Notice from "./NoticePage/Notice";
-// import AdLeft from "./MainPage/AdLeft";
 
 
 function App() {
@@ -12,11 +11,8 @@ function App() {
       <div className="App">
         <Navbar />
         <div style={{ position: 'relative' }} >
-          {/* <AdLeft /> */}
-          {/* <LogInBox /> */}
         </div>
         <div style={{ position: 'relative' }}>
-          {/* <Weather /> */}
         </div>
         <div style={{ minHeight: '75vh' }}>
           <Routes>

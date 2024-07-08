@@ -37,10 +37,7 @@ const LogInBox = () => {
   }
   return (
     <div style={{
-      // position: 'absolute',
-      // top: '30px', right: '1%',
       textAlign: 'center',
-      zIndex: 100
     }}>
       <div style={boxStyle}>
         <p style={{ margin: '7px auto', fontSize: '10px', fontWeight: 'bold' }}>간편 로그인</p>
